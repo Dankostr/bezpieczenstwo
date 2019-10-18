@@ -1,0 +1,2 @@
+tshark -i lo -Y http.cookie -V  | egrep "Cookie:|Host:" --line-buffered | python3 ss.py 
+
