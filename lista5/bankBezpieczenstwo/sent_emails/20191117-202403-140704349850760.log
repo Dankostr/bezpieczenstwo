@@ -1,0 +1,25 @@
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Subject: Password reset on 127.0.0.1:8000
+From: webmaster@localhost
+To: cichaczek@hotmail.com
+Date: Sun, 17 Nov 2019 20:24:03 -0000
+Message-ID: <157402224376.7754.2075523854682331001@Danko-studia>
+
+
+You're receiving this email because you requested a password reset for your user account at 127.0.0.1:8000.
+
+Please go to the following page and choose a new password:
+
+http://127.0.0.1:8000/reset/MQ/5bi-29bd3d2bcca325974cbc/
+
+Your username, in case you've forgotten: danko
+
+Thanks for using our site!
+
+The 127.0.0.1:8000 team
+
+
+
+-------------------------------------------------------------------------------

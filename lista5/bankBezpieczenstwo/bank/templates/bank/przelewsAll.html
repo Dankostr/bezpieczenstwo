@@ -1,0 +1,14 @@
+
+<h3 >Wyszystkie przelewy </h3>
+    {% csrf_token %}
+<table>
+ {% for przelew in przelews %}
+     <tr>
+        <th> {{przelew.odbiorca}} </th>
+        <th>{{ przelew.rachunek }}</th>
+        <th>{{ przelew.kwota }}</th>
+        <th>{{ przelew.tytul }}</th>
+        <th>{{ przelew.data }}</th>
+        {% endfor %}
+    </tr>
+</table>
