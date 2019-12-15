@@ -1,0 +1,13 @@
+HTTP/1.1 200 OK
+Date: Fri, 13 Dec 2019 06:06:43 GMT
+Server: WSGIServer/0.2 CPython/3.6.9
+Content-Type: text/html; charset=utf-8
+X-Frame-Options: SAMEORIGIN
+Vary: Cookie
+Content-Length: 1800
+Set-Cookie: csrftoken=GsCA9AO6HT0WsYUf2no0LtS5S2RHlwj5RlN9LEh8btZqHyGgZwGyGUC8pyhAk327; expires=Fri, 11 Dec 2020 06:06:43 GMT; Max-Age=31449600; Path=/; SameSite=Lax
+Set-Cookie: sessionid=""; expires=Thu, 01 Jan 1970 00:00:00 GMT; Max-Age=0; Path=/
+
+
+  <h2>Sign up</h2>
+  <form method="post"

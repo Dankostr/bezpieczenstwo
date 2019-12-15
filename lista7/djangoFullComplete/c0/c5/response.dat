@@ -1,0 +1,35 @@
+HTTP/1.1 200 OK
+Date: Fri, 13 Dec 2019 04:26:14 GMT
+Server: WSGIServer/0.2 CPython/3.6.9
+Content-Type: text/html; charset=utf-8
+Expires: Fri, 13 Dec 2019 04:26:14 GMT
+Cache-Control: max-age=0, no-cache, no-store, must-revalidate
+Vary: Cookie
+X-Frame-Options: SAMEORIGIN
+Content-Length: 646
+Set-Cookie: csrftoken=GsCA9AO6HT0WsYUf2no0LtS5S2RHlwj5RlN9LEh8btZqHyGgZwGyGUC8pyhAk327; expires=Fri, 11 Dec 2020 04:26:14 GMT; Max-Age=31449600; Path=/; SameSite=Lax
+Set-Cookie: sessionid=""; expires=Thu, 01 Jan 1970 00:00:00 GMT; Max-Age=0; Path=/
+
+
+<h3 >Log in</h3>
+<form method="post">
+    <input type="hidden" name="csrfmiddlewaretoken" value="OyxIkq9XlyevwnGF0NQvI8phMd8KHFu8ZrIhWuCZP8dZLXsGXW83Dz9kjJyDGcda">
+    
+      <p>
+        <label for="id_username">Username:</label><br>
+        <input type="text" name="username" autofocus required id="id_username">
+        
+        
+      </p>
+    
+      <p>
+        <label for="id_password">Password:</label><br>
+        <input type="password" name="password" required id="id_password">
+        
+        
+      </p>
+    
+    <button type="submit">Log in</button>
+  </form>
+    Got an account? Reset password: <a href="password_reset">reset</a>
+

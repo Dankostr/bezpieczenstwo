@@ -1,0 +1,50 @@
+GET http://127.0.0.1:8000/ name=http://127.0.0.1:8000/ type=serv linked=yes browsers=0 browser_used=FAST dup=0 code=404 len=3549 notes=4 sig=0xd51080f9
+GET http://127.0.0.1:8000/admin/ name=admin type=dir linked=yes browsers=0 browser_used=FAST dup=0 code=302 len=0 notes=1 sig=0x556082c0
+GET http://127.0.0.1:8000/admin/auth/ name=auth type=dir linked=no browsers=0 browser_used=FAST dup=0 code=302 len=0 notes=1 sig=0x1fd800f
+GET http://127.0.0.1:8000/admin/auth/group/ name=group type=dir linked=no browsers=0 browser_used=FAST dup=0 code=302 len=0 notes=3 sig=0xfff9979a
+GET http://127.0.0.1:8000/admin/auth/user/ name=user type=dir linked=no browsers=0 browser_used=FAST dup=1 code=302 len=0 notes=3 sig=0xfff9979a
+GET http://127.0.0.1:8000/admin/bank/ name=bank type=dir linked=no browsers=0 browser_used=FAST dup=0 code=302 len=0 notes=1 sig=0xfe077ffa
+GET http://127.0.0.1:8000/admin/bank/przelew/ name=przelew type=dir linked=no browsers=0 browser_used=FAST dup=1 code=302 len=0 notes=3 sig=0xfff9979a
+GET http://127.0.0.1:8000/admin/login/ name=login type=dir linked=yes browsers=0 browser_used=FAST dup=0 code=200 len=1806 notes=1 sig=0xd74907c2
+POST http://127.0.0.1:8000/admin/login/ DATA:csrfmiddlewaretoken=n6lZXNaTIvw7vXDzJvpt3IsJrHRfEDTkyZwyzRDVc5vBKxpAGEH1Y9cMYdh8DaCm&username=Smith&password=skipfish&next=/admin/ name=csrfmiddlewaretoken type=param linked=yes browsers=0 browser_used=FAST dup=0 code=200 len=1967 notes=0 sig=0xffbfffff
+GET http://127.0.0.1:8000/admin/login/?next=/admin/ name=next type=param linked=yes browsers=0 browser_used=FAST dup=0 code=200 len=1819 notes=0 sig=0xffbfffff
+POST http://127.0.0.1:8000/admin/login/ DATA:csrfmiddlewaretoken=n6lZXNaTIvw7vXDzJvpt3IsJrHRfEDTkyZwyzRDVc5vBKxpAGEH1Y9cMYdh8DaCm&username=Smith&password=skipfish&next=/admin/ name=password type=param linked=yes browsers=0 browser_used=FAST dup=0 code=200 len=1967 notes=1 sig=0xffbed694
+POST http://127.0.0.1:8000/admin/login/ DATA:csrfmiddlewaretoken=n6lZXNaTIvw7vXDzJvpt3IsJrHRfEDTkyZwyzRDVc5vBKxpAGEH1Y9cMYdh8DaCm&username=Smith&password=skipfish&next=/admin/ name=username type=param linked=yes browsers=0 browser_used=FAST dup=0 code=200 len=1967 notes=1 sig=0xffbed694
+GET http://127.0.0.1:8000/admin/logout/ name=logout type=dir linked=no browsers=0 browser_used=FAST dup=0 code=302 len=0 notes=1 sig=0xfffbffff
+GET http://127.0.0.1:8000/bank/ name=bank type=dir linked=yes browsers=7 browser_used=FAST dup=0 code=200 len=189 notes=2 sig=0xab22cbe6
+GET http://127.0.0.1:8000/bank/login name=login type=file linked=yes browsers=0 browser_used=FAST dup=0 code=200 len=646 notes=1 sig=0x955381e1
+POST http://127.0.0.1:8000/bank/login DATA:csrfmiddlewaretoken=1MP7xxzNKPAKbzce2gwuJ3ddAPlStymkcF0G9B2Pepzeq9YfZpO2EuXg7lLLs55m&username=Smith&password=skipfish name=csrfmiddlewaretoken type=param linked=yes browsers=0 browser_used=FAST dup=0 code=200 len=660 notes=0 sig=0xffbfffff
+POST http://127.0.0.1:8000/bank/login DATA:csrfmiddlewaretoken=1MP7xxzNKPAKbzce2gwuJ3ddAPlStymkcF0G9B2Pepzeq9YfZpO2EuXg7lLLs55m&username=Smith&password=skipfish name=password type=param linked=yes browsers=0 browser_used=FAST dup=0 code=200 len=660 notes=1 sig=0xffbed694
+POST http://127.0.0.1:8000/bank/login DATA:csrfmiddlewaretoken=1MP7xxzNKPAKbzce2gwuJ3ddAPlStymkcF0G9B2Pepzeq9YfZpO2EuXg7lLLs55m&username=Smith&password=skipfish name=username type=param linked=yes browsers=0 browser_used=FAST dup=0 code=200 len=660 notes=0 sig=0xffbfffff
+GET http://127.0.0.1:8000/bank/logout name=logout type=file linked=yes browsers=0 browser_used=FAST dup=0 code=200 len=1207 notes=0 sig=0xfff7ffff
+GET http://127.0.0.1:8000/bank/password_reset name=password_reset type=file linked=yes browsers=0 browser_used=FAST dup=0 code=200 len=1742 notes=1 sig=0x6113317b
+POST http://127.0.0.1:8000/bank/password_reset DATA:csrfmiddlewaretoken=kcmib4BT9IoxRcYppLuRDz6zaCBXRP5Av5xRN84VDin16MKqmUMpy0QCH81QQmOC&email=skipfish@example.com name=csrfmiddlewaretoken type=param linked=yes browsers=0 browser_used=FAST dup=0 code=302 len=0 notes=0 sig=0xffbfffff
+POST http://127.0.0.1:8000/bank/password_reset DATA:csrfmiddlewaretoken=kcmib4BT9IoxRcYppLuRDz6zaCBXRP5Av5xRN84VDin16MKqmUMpy0QCH81QQmOC&email=skipfish@example.com name=email type=param linked=yes browsers=0 browser_used=FAST dup=0 code=302 len=0 notes=0 sig=0xffbfffff
+GET http://127.0.0.1:8000/bank/przelew name=przelew type=file linked=yes browsers=0 browser_used=FAST dup=0 code=302 len=0 notes=1 sig=0x7a2938f8
+GET http://127.0.0.1:8000/bank/przelew/all name=all type=file linked=yes browsers=0 browser_used=FAST dup=0 code=302 len=0 notes=0 sig=0xfff7ffff
+GET http://127.0.0.1:8000/bank/signup name=signup type=file linked=yes browsers=0 browser_used=FAST dup=0 code=200 len=1607 notes=1 sig=0x24ebe23
+POST http://127.0.0.1:8000/bank/signup DATA:csrfmiddlewaretoken=Wgqh3LaSFGRMSQ0KmEPtsxHqjTFcXLcf79BQFPDU9gQg7qMLjN71nYrtQp55WiVh&username=Smith&email=skipfish@example.com&password1=skipfish&password2=skipfish name=csrfmiddlewaretoken type=param linked=yes browsers=0 browser_used=FAST dup=0 code=200 len=1745 notes=0 sig=0xffbfffff
+POST http://127.0.0.1:8000/bank/signup DATA:csrfmiddlewaretoken=Wgqh3LaSFGRMSQ0KmEPtsxHqjTFcXLcf79BQFPDU9gQg7qMLjN71nYrtQp55WiVh&username=Smith&email=skipfish@example.com&password1=skipfish&password2=skipfish name=email type=param linked=yes browsers=0 browser_used=FAST dup=0 code=200 len=1745 notes=0 sig=0xffbfffff
+POST http://127.0.0.1:8000/bank/signup DATA:csrfmiddlewaretoken=Wgqh3LaSFGRMSQ0KmEPtsxHqjTFcXLcf79BQFPDU9gQg7qMLjN71nYrtQp55WiVh&username=Smith&email=skipfish@example.com&password1=skipfish&password2=skipfish name=password1 type=param linked=yes browsers=0 browser_used=FAST dup=0 code=200 len=1745 notes=1 sig=0xffbed694
+POST http://127.0.0.1:8000/bank/signup DATA:csrfmiddlewaretoken=Wgqh3LaSFGRMSQ0KmEPtsxHqjTFcXLcf79BQFPDU9gQg7qMLjN71nYrtQp55WiVh&username=Smith&email=skipfish@example.com&password1=skipfish&password2=skipfish name=password2 type=param linked=yes browsers=0 browser_used=FAST dup=0 code=200 len=1745 notes=0 sig=0xffbfffff
+POST http://127.0.0.1:8000/bank/signup DATA:csrfmiddlewaretoken=Wgqh3LaSFGRMSQ0KmEPtsxHqjTFcXLcf79BQFPDU9gQg7qMLjN71nYrtQp55WiVh&username=Smith&email=skipfish@example.com&password1=skipfish&password2=skipfish name=username type=param linked=yes browsers=0 browser_used=FAST dup=0 code=200 len=1745 notes=1 sig=0xffbed694
+GET http://127.0.0.1:8000/bank/ name=bank type=dir linked=yes browsers=0 browser_used=MSIE dup=0 code=200 len=138 notes=1 sig=0xfffad823
+GET http://127.0.0.1:8000/bank/ name=bank type=dir linked=yes browsers=0 browser_used=FFOX dup=1 code=200 len=138 notes=1 sig=0xfffad823
+GET http://127.0.0.1:8000/bank/ name=bank type=dir linked=yes browsers=0 browser_used=PHONE dup=1 code=200 len=138 notes=1 sig=0xfffad823
+GET http://127.0.0.1:8000/login/ name=login type=dir linked=yes browsers=0 browser_used=FAST dup=0 code=200 len=646 notes=1 sig=0x3fd2ac8
+GET http://127.0.0.1:8000/login/password_reset name=password_reset type=unknown linked=yes browsers=0 browser_used=FAST dup=0 returns_404 code=404 len=3627 notes=0 sig=0xffdfffff
+POST http://127.0.0.1:8000/login/ DATA:csrfmiddlewaretoken=OyxIkq9XlyevwnGF0NQvI8phMd8KHFu8ZrIhWuCZP8dZLXsGXW83Dz9kjJyDGcda&username=Smith&password=skipfish name=csrfmiddlewaretoken type=param linked=yes browsers=0 browser_used=FAST dup=0 code=200 len=660 notes=0 sig=0xffbfffff
+POST http://127.0.0.1:8000/login/ DATA:csrfmiddlewaretoken=OyxIkq9XlyevwnGF0NQvI8phMd8KHFu8ZrIhWuCZP8dZLXsGXW83Dz9kjJyDGcda&username=Smith&password=skipfish name=password type=param linked=yes browsers=0 browser_used=FAST dup=0 code=200 len=660 notes=1 sig=0xffbed694
+POST http://127.0.0.1:8000/login/ DATA:csrfmiddlewaretoken=OyxIkq9XlyevwnGF0NQvI8phMd8KHFu8ZrIhWuCZP8dZLXsGXW83Dz9kjJyDGcda&username=Smith&password=skipfish name=username type=param linked=yes browsers=0 browser_used=FAST dup=0 code=200 len=660 notes=0 sig=0xffbfffff
+GET http://127.0.0.1:8000/logout/ name=logout type=dir linked=no browsers=0 browser_used=FAST dup=0 code=200 len=1207 notes=1 sig=0xfffbffff
+GET http://127.0.0.1:8000/password_reset/ name=password_reset type=dir linked=yes browsers=0 browser_used=FAST dup=0 code=200 len=1742 notes=1 sig=0xc236fa6c
+GET http://127.0.0.1:8000/password_reset/done/ name=done type=dir linked=yes browsers=0 browser_used=FAST dup=0 code=200 len=147 notes=0 sig=0xfffbffff
+POST http://127.0.0.1:8000/password_reset/ DATA:csrfmiddlewaretoken=2VGDepcgV8oU2N89TFzVl66gljCN9inddORcQtFipInohnUaQORtgxQjSP2G8P6f&email=skipfish@example.com name=csrfmiddlewaretoken type=param linked=yes browsers=0 browser_used=FAST dup=0 code=302 len=0 notes=0 sig=0xffbfffff
+POST http://127.0.0.1:8000/password_reset/ DATA:csrfmiddlewaretoken=2VGDepcgV8oU2N89TFzVl66gljCN9inddORcQtFipInohnUaQORtgxQjSP2G8P6f&email=skipfish@example.com name=email type=param linked=yes browsers=0 browser_used=FAST dup=0 code=302 len=0 notes=0 sig=0xffbfffff
+GET http://127.0.0.1:8000/static/ name=static type=dir linked=yes browsers=0 browser_used=FAST dup=0 returns_404 code=404 len=1634 notes=4 sig=0xbbb80962
+GET http://127.0.0.1:8000/static/admin/ name=admin type=dir linked=yes browsers=0 browser_used=FAST dup=0 returns_404 code=404 len=1646 notes=3 sig=0xd741f1b2
+GET http://127.0.0.1:8000/static/admin/css/ name=css type=dir linked=yes browsers=0 browser_used=FAST dup=0 returns_404 code=404 len=1654 notes=3 sig=0x802bd4a7
+GET http://127.0.0.1:8000/static/admin/css/base.css/ name=base.css type=dir linked=yes browsers=0 browser_used=FAST dup=0 code=200 len=16378 notes=2 sig=0xfff99a74
+GET http://127.0.0.1:8000/static/admin/css/forms.css/ name=forms.css type=dir linked=yes browsers=0 browser_used=FAST dup=0 code=200 len=8518 notes=2 sig=0xfff99a74
+GET http://127.0.0.1:8000/static/admin/css/login.css/ name=login.css type=dir linked=yes browsers=0 browser_used=FAST dup=0 code=200 len=1233 notes=2 sig=0xfff99a74
+GET http://127.0.0.1:8000/static/admin/css/responsive.css/ name=responsive.css type=dir linked=yes browsers=0 browser_used=FAST dup=0 code=200 len=17944 notes=2 sig=0xfff99a74

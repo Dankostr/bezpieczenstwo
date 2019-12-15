@@ -1,0 +1,13 @@
+HTTP/1.1 200 OK
+Date: Sun, 08 Dec 2019 18:39:12 GMT
+Server: WSGIServer/0.2 CPython/3.6.9
+Content-Type: text/html; charset=utf-8
+X-Frame-Options: SAMEORIGIN
+Content-Length: 189
+Vary: Cookie
+
+
+<hr>
+<a href="przelew">przelew</a>&nbsp;<a href="przelew/all">przelewy wykonane</a>&nbsp;<a href="logout">logout</a>
+<hr><br>
+Welcome to your hackable bank :). How we can lose money today?

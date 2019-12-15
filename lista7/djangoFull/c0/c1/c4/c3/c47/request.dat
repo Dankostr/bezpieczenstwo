@@ -1,0 +1,12 @@
+POST /bank/signup HTTP/1.1
+Host: 127.0.0.1:8000
+Accept-Encoding: gzip
+Connection: keep-alive
+User-Agent: Mozilla/5.0 SF/2.10b
+Range: bytes=0-399999
+Referer: http://127.0.0.1/
+Cookie: csrftoken=ciXJicCnqdZJ3vUjJo12FYEXq0vsbSP3hrQFeOplRDE9WO7ra740jNhBTecb3cF4; sessionid=""
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 162
+
+csrfmiddlewaretoken=67CccqMCR7RzziDRjB4rlAZWbx6GNyBB5X79X06kzzGOv3CpKCYmGz5nzz35S4iS&username=Smith&email=skipfish@example.com&password1=skipfish&password2=bottom

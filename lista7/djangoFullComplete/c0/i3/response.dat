@@ -1,0 +1,11 @@
+HTTP/1.1 200 OK
+Date: Thu, 12 Dec 2019 23:47:29 GMT
+Server: WSGIServer/0.2 CPython/3.6.9
+Content-Type: text/html; charset=utf-8
+Expires: Thu, 12 Dec 2019 23:47:29 GMT
+Cache-Control: max-age=0, no-cache, no-store, must-revalidate
+X-Frame-Options: SAMEORIGIN
+Content-Length: 1207
+Set-Cookie: sessionid=""; expires=Thu, 01 Jan 1970 00:00:00 GMT; Max-Age=0; Path=/
+
+[...truncated...]

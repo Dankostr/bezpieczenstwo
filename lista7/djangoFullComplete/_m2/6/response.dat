@@ -1,0 +1,13 @@
+HTTP/1.1 200 OK
+Date: Fri, 13 Dec 2019 08:13:51 GMT
+Server: WSGIServer/0.2 CPython/3.6.9
+Content-Type: text/html; charset=utf-8
+X-Frame-Options: SAMEORIGIN
+Content-Length: 147
+Set-Cookie: sessionid=""; expires=Thu, 01 Jan 1970 00:00:00 GMT; Max-Age=0; Path=/
+
+Email Sent
+
+
+  <h1>Check your inbox.</h1>
+  <p>We've emailed you instructions for setting your password. You should receive the email shortly!</p>

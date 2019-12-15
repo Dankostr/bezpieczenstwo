@@ -1,0 +1,12 @@
+POST /bank/przelew HTTP/1.1
+Host: 127.0.0.1:8000
+Accept-Encoding: gzip
+Connection: keep-alive
+User-Agent: Mozilla/5.0 SF/2.10b
+Range: bytes=0-399999
+Referer: http://127.0.0.1/
+Cookie: csrftoken=ciXJicCnqdZJ3vUjJo12FYEXq0vsbSP3hrQFeOplRDE9WO7ra740jNhBTecb3cF4; sessionid=""
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 129
+
+csrfmiddlewaretoken=5Q0KT1jUlAAmW6iyVnmG05eneSNrYFOo4GvHEBDC32pBSRh6mogBl4kOCUKQ3bvF&odbiorca=1&rachunek=1&kwota=1&data=1&tytul=1

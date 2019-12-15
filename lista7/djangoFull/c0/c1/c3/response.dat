@@ -1,0 +1,53 @@
+HTTP/1.1 200 OK
+Date: Sun, 08 Dec 2019 18:39:12 GMT
+Server: WSGIServer/0.2 CPython/3.6.9
+Content-Type: text/html; charset=utf-8
+X-Frame-Options: SAMEORIGIN
+Vary: Cookie
+Content-Length: 1163
+Set-Cookie: csrftoken=hLn8X7MiP9qqv7Lxg1ACoZLOZbNGzJpogBS5IH60xBfFrSK5H2uxJYRfndK5Ef6F; expires=Sun, 06 Dec 2020 18:39:12 GMT; Max-Age=31449600; Path=/; SameSite=Lax
+
+<hr>
+<a href="przelew">przelew</a>&nbsp;<a href="przelew/all">przelewy wykonane</a>
+<hr><br>
+<h3 >Wyślij przelew </h3>
+<form method="post" id="hackMe">
+    <input type="hidden" name="csrfmiddlewaretoken" value="5Q0KT1jUlAAmW6iyVnmG05eneSNrYFOo4GvHEBDC32pBSRh6mogBl4kOCUKQ3bvF">
+    
+      <p>
+        <label for="id_odbiorca">Odbiorca:</label><br>
+        <input type="text" name="odbiorca" required id="id_odbiorca">
+        
+        
+      </p>
+    
+      <p>
+        <label for="id_rachunek">Rachunek:</label><br>
+        <input type="text" name="rachunek" required id="id_rachunek">
+        
+        
+      </p>
+    
+      <p>
+        <label for="id_kwota">Kwota:</label><br>
+        <input type="number" name="kwota" step="any" required id="id_kwota">
+        
+        
+      </p>
+    
+      <p>
+        <label for="id_data">Data:</label><br>
+        <input type="text" name="data" required id="id_data">
+        
+        
+      </p>
+    
+      <p>
+        <label for="id_tytul">Tytul:</label><br>
+        <input type="text" name="tytul" required id="id_tytul">
+        
+        
+      </p>
+    
+    <button type="submit">Wyślij przelew</button>
+  </form>

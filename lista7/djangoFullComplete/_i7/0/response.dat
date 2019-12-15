@@ -1,0 +1,7 @@
+HTTP/1.1 500 Internal Server Error
+Date: Thu, 12 Dec 2019 23:47:47 GMT
+Server: WSGIServer/0.2 CPython/3.6.9
+Content-Type: text/plain
+Content-Length: 59
+
+A server error occurred.  Please contact the administrator.

@@ -1,0 +1,14 @@
+HTTP/1.1 200 OK
+Date: Sun, 08 Dec 2019 18:39:12 GMT
+Server: WSGIServer/0.2 CPython/3.6.9
+Content-Type: text/html; charset=utf-8
+X-Frame-Options: SAMEORIGIN
+Vary: Cookie
+Content-Length: 1163
+Set-Cookie: csrftoken=hLn8X7MiP9qqv7Lxg1ACoZLOZbNGzJpogBS5IH60xBfFrSK5H2uxJYRfndK5Ef6F; expires=Sun, 06 Dec 2020 18:39:12 GMT; Max-Age=31449600; Path=/; SameSite=Lax
+
+<hr>
+<a href="przelew">przelew</a>&nbsp;<a href="przelew/all">przelewy wykonane</a>
+<hr><br>
+<h3 >Wyślij przelew </h3>
+<form method="post" id="hackMe"
