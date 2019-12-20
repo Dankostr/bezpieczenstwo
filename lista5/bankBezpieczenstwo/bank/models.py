@@ -9,6 +9,7 @@ class Przelew(models.Model):
     kwota = models.FloatField(default=0.00)
     data = models.DateTimeField('d')
     tytul = models.CharField(max_length=200)
+    zatwierdzony = models.BooleanField(default=False)
 
     def __str__(self):
         return self.tytul

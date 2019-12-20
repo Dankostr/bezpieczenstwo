@@ -6,7 +6,6 @@ import django.db.models.deletion
 
 
 class Migration(migrations.Migration):
-
     initial = True
 
     dependencies = [
@@ -34,6 +33,7 @@ class Migration(migrations.Migration):
                 ('data', models.DateTimeField(verbose_name='d')),
                 ('tytul', models.CharField(max_length=200)),
                 ('From', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, to=settings.AUTH_USER_MODEL)),
+                ('Zatwierdzony', models.BooleanField(default=False))
             ],
         ),
     ]

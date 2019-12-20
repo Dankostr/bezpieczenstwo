@@ -36,3 +36,21 @@ class PrzelewForm(forms.Form):
                              data=self.cleaned_data['data'],
                              tytul=self.cleaned_data['tytul'])
         newPrzelew.save()
+
+
+class AdminConfirmForm(forms.Form):
+    id = forms.CharField(widget=forms.HiddenInput())
+
+    def is_valid(self):
+        valid = super(forms.Form, self).is_valid()
+        if not valid:
+            return False
+        idv = self.cleaned_data['id']
+        if idv.isdigit():
+            return True
+        return False
+
+    def save(self):
+        przelew = Przelew.objects.get(id=self.cleaned_data['id'])
+        przelew.zatwierdzony = True
+        przelew.save()

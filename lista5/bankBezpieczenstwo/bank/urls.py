@@ -13,5 +13,7 @@ urlpatterns = [
     path('logout', auth_views.LogoutView.as_view(), name='logout'),
     path('przelew/confirm', views.przelewconfirm, name='przelewConfirm'),
     path('przelew/all', views.checkPrzelews, name='checkPrzelews'),
-
+    path('password_reset', auth_views.PasswordResetView.as_view(), name="passwordReset"),
+    path('adminConfirm', views.confirmPrzelewByAdmin, name='adminConfirm'),
+    path('vunerable',views.injection_vunerable_site,name='vunerable')
 ]

@@ -2,7 +2,11 @@
 <a href="przelew">przelew</a>&nbsp;<a href="przelew/all">przelewy wykonane</a>
 <hr><br>
 <h3 >Wyszystkie przelewy </h3>
+<form method="post">
+ Wpisz datę od której chcesz zobaczyć przelewy<input type="text" name="date">
+    <input type="submit">
     {% csrf_token %}
+</form>
 <table>
  {% for przelew in przelews %}
      <tr>
